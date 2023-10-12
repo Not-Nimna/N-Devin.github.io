@@ -18,10 +18,10 @@ export default function BaseLayout() {
   }
 
   useEffect(() => {
-    let detectedDarkMode = eval(localStorage.getItem("darkMode"));
+    let detectedDarkMode = localStorage.getItem("darkMode");
 
-    if (detectedDarkMode) {
-      setDarkMode(detectedDarkMode);
+    if (detectedDarkMode === "true") {
+      setDarkMode(true);
     } else {
       localStorage.setItem("darkMode", "false");
     }
@@ -34,7 +34,7 @@ export default function BaseLayout() {
         display={"flex"}
         flexDirection={"column"}
         minHeight={"100vh"}
-        justifyContent={"space-between"}
+        justifyContent={"space_between"}
       >
         <Grid item>
           <Navbar darkMode={darkMode} handleClick={handleToggleDarkMode} />
