@@ -48,7 +48,7 @@ export const info = {
       label: "github",
     },
     {
-      link: "www.linkedin.com/in/nimnawijedasa",
+      link: "https://linkedin.com/in/nimnawijedasa",
       icon: "fa fa-linkedin",
       label: "linkedin",
     },
@@ -58,18 +58,9 @@ export const info = {
       label: "twitter",
     },
   ],
-  bio: "Greetings! I'm Nimna, a passionate Software Engineering student enrolled at the esteemed University of Calgary. As an avid seeker of thrilling experiences, I thrive on activities that send my veins pulsating with adrenaline. In my view, I firmly uphold the belief that true greatness stems from one's unwavering commitment to discipline and self-improvement.  ",
+  bio: "Hi! I'm Nimna, a passionate Software Engineering student enrolled at the esteemed University of Calgary. As an avid seeker of thrilling experiences, I thrive on activities that send my veins pulsating with adrenaline. In my view, I firmly uphold the belief that true greatness stems from one's unwavering commitment to discipline and self-improvement.  ",
   skills: {
-    proficientWith: [
-      "java",
-      "react",
-      "C/C++",
-      "github",
-      "Python",
-      "SQL",
-      "HTML/CSS",
-      "aws/amplify",
-    ],
+    proficientWith: ["java", "react", "C/C++", "github", "Python", "SQL", "HTML/CSS", "aws/amplify"],
     exposedTo: ["data structures / algorithms", "linux", "tensorflow"],
   },
   hobbies: [
@@ -82,7 +73,7 @@ export const info = {
       emoji: "🎸",
     },
     {
-      label: "stock trading",
+      label: "stocks",
       emoji: "📈",
     },
     {
