@@ -8,7 +8,7 @@ import { Route, Routes } from "react-router-dom";
 import { Box, Grid } from "@mui/material";
 
 export default function BaseLayout() {
-  let [darkMode, setDarkMode] = useState(false);
+  let [darkMode, setDarkMode] = useState(true);
 
   function handleToggleDarkMode() {
     let oppositeOfCurrentDarkMode = !darkMode;
@@ -29,13 +29,7 @@ export default function BaseLayout() {
 
   return (
     <Box className={darkMode ? Style.dark : Style.light}>
-      <Grid
-        container
-        display={"flex"}
-        flexDirection={"column"}
-        minHeight={"100vh"}
-        justifyContent={"space_between"}
-      >
+      <Grid container display={"flex"} flexDirection={"column"} minHeight={"100vh"} justifyContent={"space_between"}>
         <Grid item>
           <Navbar darkMode={darkMode} handleClick={handleToggleDarkMode} />
         </Grid>
@@ -47,15 +41,7 @@ export default function BaseLayout() {
           </Routes>
         </Grid>
         <Grid item>
-          <Box
-            component={"footer"}
-            display={"flex"}
-            flexDirection={"column"}
-            alignItems={"center"}
-            py={"1.5rem"}
-            sx={{ opacity: 0.7 }}
-            width={"100%"}
-          >
+          <Box component={"footer"} display={"flex"} flexDirection={"column"} alignItems={"center"} py={"1.5rem"} sx={{ opacity: 0.7 }} width={"100%"}>
             Nimna Wijedasa
           </Box>
         </Grid>

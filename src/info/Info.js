@@ -1,4 +1,4 @@
-import self from "../img/self.png";
+import self from "../img/pfp.png";
 import mock1 from "../img/mock1.png";
 import mock2 from "../img/mock2.png";
 import mock3 from "../img/mock3.png";
@@ -38,7 +38,7 @@ export const info = {
       label: "facebook",
     },
     {
-      link: "https://www.instagram.com/notnimna/",
+      link: "https://www.instagram.com/nimna.wjd/",
       icon: "fa fa-instagram",
       label: "instagram",
     },
@@ -58,10 +58,31 @@ export const info = {
       label: "twitter",
     },
   ],
-  bio: "Hi! I'm Nimna, a passionate Software Engineering student enrolled at the esteemed University of Calgary. As an avid seeker of thrilling experiences, I thrive on activities that send my veins pulsating with adrenaline. In my view, I firmly uphold the belief that true greatness stems from one's unwavering commitment to discipline and self-improvement.  ",
+
+  bio: "Hey! how's it going I am Nimna Wijedasa, a Software Engineering student at the University of Calgary. I love building random things that make no sense whatsover but thats the fun part. on a serious note I love leanring about Machine learning with neurual nets beign the current topic of obsession. while on the not career realted side i follow F1 religoesly ( go WEEEYUMS!) while also i enjoy keeping fit and hitting the gym but will also never say no to a cookie.",
   skills: {
-    proficientWith: ["java", "react", "C/C++", "github", "Python", "SQL", "HTML/CSS", "aws/amplify"],
-    exposedTo: ["data structures / algorithms", "linux", "tensorflow"],
+    proficientWith: [
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Node.js",
+      "TensorFlow",
+      "PyTorch",
+      "Pandas",
+      "NumPy",
+      "scikit-learn",
+      "Git",
+      "REST APIs",
+      "SQL",
+      "PostgreSQL",
+      "AWS (EC2, S3, Lambda, DynamoDB)",
+      "Docker",
+      "Terraform",
+      "Figma",
+    ],
+    exposedTo: ["LSTM / CNN architectures", "MLOps", "CI/CD (GitHub Actions)", "Webpack / Vite", "Tailwind CSS", "shadcn/ui", "C++", "Java", "GraphQL", "Mapbox GL JS", "OpenAI / LLM APIs", "CUDA", "Microservices"],
   },
   hobbies: [
     {
@@ -73,8 +94,8 @@ export const info = {
       emoji: "🎸",
     },
     {
-      label: "stocks",
-      emoji: "📈",
+      label: "F1",
+      emoji: "🏎️",
     },
     {
       label: "cooking",

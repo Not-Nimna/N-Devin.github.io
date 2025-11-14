@@ -1,6 +1,6 @@
 import React from "react";
 import Style from "./Home.module.scss";
-import me from "../../img/self.png";
+import me from "../../img/pfp.png";
 import classNames from "classnames";
 import EmojiBullet from "./EmojiBullet";
 import SocialIcon from "./SocialIcon";
@@ -16,7 +16,7 @@ export default function Home() {
         style={{ background: info.gradient }}
         component={"img"}
         src={me}
-        width={{ xs: "35vh", md: "37vh" }}
+        width={{ xs: "36vh", md: "38vh" }}
         height={{ xs: "42vh", md: "47vh" }}
         borderRadius={"70%"}
         p={"0.75rem"}
