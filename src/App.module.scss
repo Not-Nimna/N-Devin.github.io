@@ -11,10 +11,7 @@
 :global(body) {
   margin: 0;
   font-family: "Manrope", sans-serif;
-  background:
-    radial-gradient(circle at top left, rgba(255, 110, 47, 0.12), transparent 30%),
-    radial-gradient(circle at bottom right, rgba(196, 255, 50, 0.08), transparent 28%),
-    #171210;
+  background: radial-gradient(circle at top left, rgba(255, 110, 47, 0.12), transparent 30%), radial-gradient(circle at bottom right, rgba(196, 255, 50, 0.08), transparent 28%), #171210;
   color: #f4efe9;
 }
 
@@ -44,9 +41,7 @@
   position: fixed;
   inset: 0;
   pointer-events: none;
-  background:
-    radial-gradient(circle at 20% 22%, rgba(255, 122, 43, 0.12), transparent 18%),
-    radial-gradient(circle at 72% 68%, rgba(196, 255, 50, 0.08), transparent 22%);
+  background: radial-gradient(circle at 20% 22%, rgba(255, 122, 43, 0.12), transparent 18%), radial-gradient(circle at 72% 68%, rgba(196, 255, 50, 0.08), transparent 22%);
 }
 
 .page {
@@ -67,7 +62,7 @@
   top: 32px;
   padding: 24px;
   border-radius: 30px;
-  background: linear-gradient(180deg, #f6f1ea 0%, #f0ece5 100%);
+  background: linear-gradient(180deg, #efe4d5 0%, #e5d7c7 100%);
   color: #121212;
   border: 1px solid rgba(255, 255, 255, 0.35);
   box-shadow: 0 28px 60px rgba(0, 0, 0, 0.28);
@@ -77,7 +72,7 @@
   position: relative;
   padding: 24px;
   border-radius: 28px;
-  background: linear-gradient(145deg, #fbf7f2 0%, #ede7df 100%);
+  background: linear-gradient(145deg, #f4eadf 0%, #e7dacb 100%);
   overflow: hidden;
 }
 
@@ -166,7 +161,9 @@
   border: 1px solid rgba(18, 18, 18, 0.12);
   font-size: 0.9rem;
   font-weight: 700;
-  transition: transform 180ms ease, background-color 180ms ease;
+  transition:
+    transform 180ms ease,
+    background-color 180ms ease;
 }
 
 .profileLinks a:hover {
@@ -341,14 +338,12 @@
 }
 
 .orange {
-  background: linear-gradient(135deg, #ff6f3a 0%, #f05d22 100%);
+  background: linear-gradient(135deg, #ed8e57 0%, #eb7637 100%);
   color: #fffaf5;
 }
 
 .orange::before {
-  background:
-    radial-gradient(circle at top right, rgba(255, 255, 255, 0.24), transparent 35%),
-    linear-gradient(135deg, transparent 0%, rgba(104, 23, 0, 0.24) 100%);
+  background: radial-gradient(circle at top right, rgba(255, 255, 255, 0.24), transparent 35%), linear-gradient(135deg, transparent 0%, rgba(104, 23, 0, 0.24) 100%);
 }
 
 .orange li {
@@ -356,14 +351,12 @@
 }
 
 .green {
-  background: linear-gradient(140deg, #c7ff2f 0%, #b5f11d 100%);
+  background: linear-gradient(140deg, #cbf676 0%, #b2df59 100%);
   color: #121212;
 }
 
 .green::before {
-  background:
-    repeating-linear-gradient(135deg, transparent 0 36px, rgba(18, 18, 18, 0.08) 36px 42px),
-    radial-gradient(circle at bottom left, rgba(255, 255, 255, 0.28), transparent 34%);
+  background: repeating-linear-gradient(135deg, transparent 0 36px, rgba(18, 18, 18, 0.08) 36px 42px), radial-gradient(circle at bottom left, rgba(255, 255, 255, 0.28), transparent 34%);
 }
 
 .green li {
@@ -377,9 +370,7 @@
 }
 
 .dark::before {
-  background:
-    linear-gradient(130deg, rgba(255, 255, 255, 0.05), transparent 42%),
-    radial-gradient(circle at top right, rgba(255, 139, 76, 0.1), transparent 40%);
+  background: linear-gradient(130deg, rgba(255, 255, 255, 0.05), transparent 42%), radial-gradient(circle at top right, rgba(255, 139, 76, 0.1), transparent 40%);
 }
 
 .dark li {
