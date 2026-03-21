@@ -1,125 +1,138 @@
 import self from "../img/pfp.png";
-import mock1 from "../img/mock1.png";
-import mock2 from "../img/mock2.png";
-import mock3 from "../img/mock3.png";
-
-export let colors = ["rgb(111, 232, 237)", "rgb(5, 34, 68)"];
 
 export const info = {
-  firstName: "Nimna",
-  lastName: "Wijedasa",
-  initials: "NW",
-  position: "a Software engineering student",
-  selfPortrait: self,
-  gradient: `-webkit-linear-gradient(135deg, ${colors})`,
-  baseColor: colors[0],
-  miniBio: [
-    {
-      emoji: "🇱🇰",
-      text: "From Sri Lanka",
-    },
-    {
-      emoji: "🌎",
-      text: "based in Calgary",
-    },
-    {
-      emoji: "🎓",
-      text: "Student at the University of Calgary",
-    },
-    {
-      emoji: "✉️",
-      text: "nimnawijedasa@gmail.com",
-    },
-  ],
-  socials: [
-    {
-      link: "https://www.facebook.com/notnimna/",
-      icon: "fa fa-facebook",
-      label: "facebook",
-    },
-    {
-      link: "https://www.instagram.com/nimna.wjd/",
-      icon: "fa fa-instagram",
-      label: "instagram",
-    },
-    {
-      link: "https://github.com/notnimna4761",
-      icon: "fa fa-github",
-      label: "github",
-    },
-    {
-      link: "https://linkedin.com/in/nimnawijedasa",
-      icon: "fa fa-linkedin",
-      label: "linkedin",
-    },
-    {
-      link: "https://twitter.com/notnimna",
-      icon: "fa fa-twitter",
-      label: "twitter",
-    },
-  ],
-
-  bio: "Hey! how's it going I am Nimna Wijedasa, a Software Engineering student at the University of Calgary. I love building random things that make no sense whatsover but thats the fun part. on a serious note I love leanring about Machine learning with neurual nets beign the current topic of obsession. while on the not career realted side i follow F1 religoesly ( go WEEEYUMS!) while also i enjoy keeping fit and hitting the gym but will also never say no to a cookie.",
-  skills: {
-    proficientWith: [
-      "Python",
-      "JavaScript",
-      "TypeScript",
-      "React",
-      "Next.js",
-      "Node.js",
-      "TensorFlow",
-      "PyTorch",
-      "Pandas",
-      "NumPy",
-      "scikit-learn",
-      "Git",
-      "REST APIs",
-      "SQL",
-      "PostgreSQL",
-      "AWS (EC2, S3, Lambda, DynamoDB)",
-      "Docker",
-      "Terraform",
-      "Figma",
-    ],
-    exposedTo: ["LSTM / CNN architectures", "MLOps", "CI/CD (GitHub Actions)", "Webpack / Vite", "Tailwind CSS", "shadcn/ui", "C++", "Java", "GraphQL", "Mapbox GL JS", "OpenAI / LLM APIs", "CUDA", "Microservices"],
+  profile: {
+    firstName: "Nimna",
+    lastName: "Wijedasa",
+    fullName: "Nimna Wijedasa",
+    title: "Software Engineer",
+    focus: "Cloud, Full-Stack, and Systems",
+    status: "Software Engineering Student @ UCalgary",
+    summary:
+      "Software Engineering student at the University of Calgary with experience in cloud infrastructure, full-stack systems, and performance engineering.",
+    detail:
+      "Built scalable applications using AWS, Terraform, and React, and worked on microservice performance analysis under real-world workloads.",
+    portrait: self,
+    email: "nimnawijedasa@gmail.com",
+    location: "Calgary, Alberta",
+    background: "Originally from Sri Lanka",
+    resumeLabel: "Resume available on request",
   },
-  hobbies: [
+  navigation: [
+    { id: "hero", label: "Home" },
+    { id: "experience", label: "Experience" },
+    { id: "projects", label: "Projects" },
+    { id: "contact", label: "Contact" },
+  ],
+  socialLinks: [
     {
-      label: "working out",
-      emoji: "🏋️",
+      label: "GitHub",
+      href: "https://github.com/notnimna4761",
     },
     {
-      label: "playing guitar",
-      emoji: "🎸",
+      label: "LinkedIn",
+      href: "https://linkedin.com/in/nimnawijedasa",
     },
     {
-      label: "F1",
-      emoji: "🏎️",
-    },
-    {
-      label: "cooking",
-      emoji: "🍳",
+      label: "Email",
+      href: "mailto:nimnawijedasa@gmail.com",
     },
   ],
-  portfolio: [
+  hero: {
+    eyebrow: "Cloud-first builder with systems depth",
+    headingTop: "SOFTWARE",
+    headingBottom: "ENGINEER",
+    blurb:
+      "Building scalable cloud systems and performance-driven applications with a full-stack mindset. I care about infrastructure, product execution, and how software behaves under load.",
+  },
+  stats: [
     {
-      title: "TuneMatch",
-      live: "https://mellifluous-bonbon-afcbd6.netlify.app/",
-      source: "https://github.com/N-Devin/GPT-music",
-      image: mock1,
+      value: "4th",
+      label: "Year Software Engineering Student",
     },
     {
-      title: "Lotion",
-      live: "https://eclectic-chimera-99d091.netlify.app/",
-      source: "https://github.com/N-Devin/Lotion",
-      image: mock2,
+      value: "1",
+      label: "Software Engineering Internship at TC Energy",
     },
     {
-      title: "Wordle",
-      live: "https://taupe-syrniki-bcfa1b.netlify.app/",
-      source: "https://github.com/N-Devin/wordle",
-      image: mock3,
+      value: "3+",
+      label: "Large-Scale Projects across cloud, microservices, and full-stack apps",
     },
   ],
+  highlightCards: [
+    {
+      theme: "orange",
+      title: "Cloud & Infrastructure",
+      points: ["AWS", "Terraform", "Docker"],
+    },
+    {
+      theme: "green",
+      title: "Full-Stack Development",
+      points: ["React", "Node.js APIs", "PostgreSQL"],
+    },
+    {
+      theme: "dark",
+      title: "Systems & Performance",
+      points: ["TeaStore", "JMeter", "Load Analysis"],
+    },
+  ],
+  experience: [
+    {
+      period: "Most Recent",
+      role: "Software Engineering Intern",
+      company: "TC Energy",
+      description:
+        "Worked in a real engineering environment where reliability, maintainability, and practical delivery mattered. Experience shaped how I think about production systems and engineering tradeoffs.",
+    },
+    {
+      period: "Current",
+      role: "Software Engineering Student",
+      company: "University of Calgary",
+      description:
+        "Focused on cloud systems, full-stack application development, and the performance behavior of distributed systems.",
+    },
+  ],
+  projects: [
+    {
+      title: "Clutter",
+      description:
+        "A full-stack product experience centered on clean workflows, strong UX, and practical application structure.",
+      stack: ["React", "Node.js", "PostgreSQL", "Product Design"],
+    },
+    {
+      title: "TeaStore Performance Evaluation",
+      description:
+        "Analyzed a microservices-based system under workload pressure, using load testing and performance analysis to understand bottlenecks and system behavior.",
+      stack: ["Microservices", "JMeter", "Performance Testing", "Analysis"],
+    },
+    {
+      title: "Academia League",
+      description:
+        "Built an application-oriented project with multi-surface requirements, balancing frontend delivery with backend structure and maintainable implementation.",
+      stack: ["Full-Stack", "React", "APIs", "Systems Thinking"],
+    },
+  ],
+  technicalAreas: [
+    {
+      title: "Cloud & Infrastructure",
+      items: ["AWS", "Terraform", "Docker", "Lambda", "S3", "Fargate"],
+    },
+    {
+      title: "Application Engineering",
+      items: ["React", "Next.js", "Node.js", "TypeScript", "REST APIs", "SQL"],
+    },
+    {
+      title: "Systems Perspective",
+      items: ["Microservices", "Performance Analysis", "Load Testing", "Scalability"],
+    },
+  ],
+  contact: {
+    title: "Let’s build something reliable and scalable.",
+    text:
+      "I’m most interested in software roles where I can work across applications, infrastructure, and system behavior.",
+    primaryLabel: "Email Me",
+    primaryHref: "mailto:nimnawijedasa@gmail.com",
+    secondaryLabel: "Open LinkedIn",
+    secondaryHref: "https://linkedin.com/in/nimnawijedasa",
+  },
 };
