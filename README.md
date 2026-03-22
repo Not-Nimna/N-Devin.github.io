@@ -31,7 +31,7 @@ This portfolio is designed to:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Frontend:** HTML, CSS, JavaScript
 * **Styling:** Custom CSS (with potential Tailwind integration)
@@ -40,7 +40,7 @@ This portfolio is designed to:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 /index.html        # Main landing page
