@@ -1,6 +1,4 @@
----
-
-#  Nimna Wijedasa – Personal Portfolio
+# Personal Portfolio
 
 This repository contains the source code for **Nimna Wijedasa’s personal portfolio website**, deployed using **GitHub Pages**.
 
