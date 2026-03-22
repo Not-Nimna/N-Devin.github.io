@@ -1,5 +1,3 @@
-Here’s a **clean, upgraded version** of your README that actually reflects *you + your portfolio + your technical depth* (not just a generic GitHub Pages repo):
-
 ---
 
 #  Nimna Wijedasa – Personal Portfolio
