@@ -2,7 +2,7 @@ Here’s a **clean, upgraded version** of your README that actually reflects *yo
 
 ---
 
-# 🌐 Nimna Wijedasa – Personal Portfolio
+#  Nimna Wijedasa – Personal Portfolio
 
 This repository contains the source code for **Nimna Wijedasa’s personal portfolio website**, deployed using **GitHub Pages**.
 
