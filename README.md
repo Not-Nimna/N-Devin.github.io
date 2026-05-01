@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-This repository contains the source code for **Nimna Wijedasa’s personal portfolio website**, deployed using **GitHub Pages**.
+This repository contains the source code for **My personal portfolio website**, deployed using **GitHub Pages**.
 
 The site showcases my work as a **Software Engineering student at the University of Calgary**, highlighting projects in **cloud infrastructure, full-stack development, performance engineering, and engineering analytics**.
 
