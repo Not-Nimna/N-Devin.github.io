@@ -159,6 +159,8 @@ export const info = {
         "Built a food waste tracking app with OCR-based grocery data extraction, expiration alerts, SQLAlchemy backend services, and a Material UI dashboard.",
       stack: ["React", "Node.js", "Python", "PostgreSQL"],
       event: "Hack the Change 2023",
+      projectHref: "https://devpost.com/software/zerowaste-in2x8e",
+      linkLabel: "View Devpost",
     },
     {
       title: "Urbanlytics",
@@ -166,6 +168,8 @@ export const info = {
         "Developed a geospatial analytics platform for neighbourhood insights using map-based filtering, sidebar analytics, and open data integrations.",
       stack: ["Next.js", "TypeScript", "Leaflet", "Open APIs"],
       event: "Hack the Change 2025",
+      projectHref: "https://devpost.com/software/779z-performateamitive-urbanlytics",
+      linkLabel: "View Devpost",
     },
   ],
   technicalAreas: [

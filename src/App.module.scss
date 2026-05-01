@@ -491,6 +491,18 @@
   color: #171210;
 }
 
+.hackathonCard .projectLink {
+  position: relative;
+  margin-top: 24px;
+  background: #171210;
+  color: #fff8f1;
+  box-shadow: 0 16px 38px rgba(23, 18, 16, 0.2);
+}
+
+.hackathonCard .projectLink span:last-child {
+  background: rgba(255, 255, 255, 0.14);
+}
+
 .areaGrid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }

@@ -145,6 +145,12 @@ function App() {
                       <span key={item}>{item}</span>
                     ))}
                   </div>
+                  {hackathon.projectHref && (
+                    <a className={styles.projectLink} href={hackathon.projectHref} target="_blank" rel="noreferrer" aria-label={`Open ${hackathon.title} on Devpost`}>
+                      <span>{hackathon.linkLabel || "View Hackathon Project"}</span>
+                      <span aria-hidden="true">↗</span>
+                    </a>
+                  )}
                 </article>
               ))}
             </div>
