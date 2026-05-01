@@ -104,17 +104,28 @@ function App() {
               <h2>Work that reflects cloud, product, and systems thinking.</h2>
             </div>
             <div className={styles.projectGrid}>
-              {projects.map((project) => (
-                <article key={project.title} className={styles.projectCard}>
-                  <h3>{project.title}</h3>
-                  <p>{project.description}</p>
-                  <div className={styles.tagRow}>
-                    {project.stack.map((item) => (
-                      <span key={item}>{item}</span>
-                    ))}
-                  </div>
-                </article>
-              ))}
+              {projects.map((project) => {
+                const projectHref = project.githubHref || project.projectHref;
+                const projectLinkLabel = project.linkLabel || (project.githubHref ? "View GitHub Repo" : "View Project");
+
+                return (
+                  <article key={project.title} className={styles.projectCard}>
+                    <h3>{project.title}</h3>
+                    <p>{project.description}</p>
+                    <div className={styles.tagRow}>
+                      {project.stack.map((item) => (
+                        <span key={item}>{item}</span>
+                      ))}
+                    </div>
+                    {projectHref && (
+                      <a className={styles.projectLink} href={projectHref} target="_blank" rel="noreferrer" aria-label={`Open ${project.title}`}>
+                        <span>{projectLinkLabel}</span>
+                        <span aria-hidden="true">↗</span>
+                      </a>
+                    )}
+                  </article>
+                );
+              })}
             </div>
           </section>
 

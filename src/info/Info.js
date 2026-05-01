@@ -96,14 +96,70 @@ export const info = {
     {
       title: "Clutter",
       description:
-        "A full-stack product experience centered on clean workflows, strong UX, and practical application structure.",
-      stack: ["React", "Node.js", "PostgreSQL", "Product Design"],
+        "Built a drag-and-drop cloud diagramming platform that generates deployable Terraform infrastructure, with serverless APIs and a Next.js interface.",
+      stack: ["Next.js", "TypeScript", "Terraform", "Node.js APIs"],
+      githubHref: "https://github.com/Alberta2514640/clutter.git",
     },
     {
       title: "TeaStore Performance Evaluation",
       description:
         "Analyzed a microservices-based system under workload pressure, using load testing and performance analysis to understand bottlenecks and system behavior.",
       stack: ["Microservices", "JMeter", "Performance Testing", "Analysis"],
+      githubHref: "https://github.com/Not-Nimna/TeaStore.git",
+    },
+    {
+      title: "Flight Reservation Web Application",
+      description:
+        "Built a full-stack reservation system with booking workflows, user data management, relational schemas, and a React-based frontend.",
+      stack: ["Java", "Spring Boot", "React", "SQL"],
+      githubHref: "https://github.com/Not-Nimna/flight_reservation.git",
+    },
+    {
+      title: "Remembrance Web Application",
+      description:
+        "Implemented an obituary generation application using AWS services, ChatGPT API, Amazon Polly narration, Cloudinary media storage, and React.",
+      stack: ["AWS Lambda", "Polly", "DynamoDB", "React"],
+      githubHref: "https://github.com/ucalgary-ensf381/the-last-show-nimna-solo.git",
+    },
+    {
+      title: "Wireshark Packet Analysis & TCP Socket Lab",
+      description:
+        "Captured and analyzed HTTP, TCP, DNS, UDP, and TLS traffic, then built a Python TCP client-server chat application with structured debugging logs.",
+      stack: ["Python", "TCP Sockets", "Wireshark", "Networking"],
+    },
+    {
+      title: "Neural Network from Scratch",
+      description:
+        "Implemented forward propagation, backpropagation, and gradient descent without deep learning frameworks, plus an interactive digit-classification notebook.",
+      stack: ["Python", "NumPy", "ipycanvas", "Google Colab"],
+      projectHref: "https://colab.research.google.com/drive/1a239pax1t2Q4b8VzmHALp2rVTwMiN8A2?usp=sharing",
+      linkLabel: "Open Colab",
+    },
+    {
+      title: "Kubernetes Deployment and Orchestration",
+      description:
+        "Deployed and managed containerized applications with Kubernetes, comparing blue-green and canary deployment strategies in a cloud-native environment.",
+      stack: ["Kubernetes", "Docker", "Minikube", "YAML"],
+      githubHref: "https://github.com/Not-Nimna/ensf400-lab8-kubernetes-2",
+    },
+    {
+      title: "Pipeline Integrity Management System",
+      description:
+        "Developed a full-stack pipeline integrity platform with REST APIs, relational schemas, risk scoring analytics, and geospatial pipeline visualizations.",
+      stack: ["C# ASP.NET Core", "React", "MS SQL Server", "REST APIs"],
+      githubHref: "https://github.com/Not-Nimna/Pipeline-Integrity-Management-System.git",
+    },
+    {
+      title: "ZeroWaste",
+      description:
+        "Built a food waste tracking app with OCR-based grocery data extraction, expiration alerts, SQLAlchemy backend services, and a Material UI dashboard.",
+      stack: ["React", "Node.js", "Python", "PostgreSQL"],
+    },
+    {
+      title: "Urbanlytics",
+      description:
+        "Developed a geospatial analytics platform for neighbourhood insights using map-based filtering, sidebar analytics, and open data integrations.",
+      stack: ["Next.js", "TypeScript", "Leaflet", "Open APIs"],
     },
     {
       title: "Academia League",
