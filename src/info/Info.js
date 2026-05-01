@@ -7,9 +7,9 @@ export const info = {
     fullName: "Nimna Wijedasa",
     title: "Software Engineer",
     focus: "Cloud, Full-Stack, and Systems",
-    status: "Software Engineering Student @ UCalgary",
+    status: "Software Engineering Graduate @ UCalgary",
     summary:
-      "Software Engineering student at the University of Calgary with experience in cloud infrastructure, full-stack systems, and performance engineering.",
+      "Software Engineering graduate from the University of Calgary with experience in cloud infrastructure, full-stack systems, geospatial data workflows, and performance engineering.",
     detail:
       "Built scalable applications using AWS, Terraform, and React, and worked on microservice performance analysis under real-world workloads.",
     portrait: self,
@@ -40,57 +40,57 @@ export const info = {
     },
   ],
   hero: {
-    eyebrow: "Cloud-first builder with systems depth",
+    eyebrow: "Software engineering graduate with production-minded delivery",
     headingTop: "SOFTWARE",
     headingBottom: "ENGINEER",
     blurb:
-      "Building scalable cloud systems and performance-driven applications with a full-stack mindset. I care about infrastructure, product execution, and how software behaves under load.",
+      "I build practical software across cloud infrastructure, data automation, and full-stack applications. My work spans AWS-based pipeline analysis, React product interfaces, geospatial tooling, and performance evaluation of distributed systems.",
   },
   stats: [
     {
-      value: "4th",
-      label: "Year Software Engineering Student",
+      value: "BSc",
+      label: "Software Engineering Graduate from the University of Calgary",
     },
     {
-      value: "1",
-      label: "Software Engineering Internship at TC Energy",
+      value: "16",
+      label: "Months of Engineering Internship Experience at TC Energy",
     },
     {
-      value: "3+",
-      label: "Large-Scale Projects across cloud, microservices, and full-stack apps",
+      value: "10+",
+      label: "Projects across cloud, data automation, full-stack apps, and systems analysis",
     },
   ],
   highlightCards: [
     {
       theme: "orange",
-      title: "Cloud & Infrastructure",
-      points: ["AWS", "Terraform", "Docker"],
+      title: "Cloud & Data Automation",
+      points: ["AWS", "Python ETL", "S3"],
     },
     {
       theme: "green",
-      title: "Full-Stack Development",
-      points: ["React", "Node.js APIs", "PostgreSQL"],
+      title: "Full-Stack Product Work",
+      points: ["React", "Next.js", "APIs"],
     },
     {
       theme: "dark",
-      title: "Systems & Performance",
-      points: ["TeaStore", "JMeter", "Load Analysis"],
+      title: "Systems & Geospatial Analysis",
+      points: ["TeaStore", "JMeter", "ArcGIS"],
     },
   ],
   experience: [
     {
       period: "Most Recent",
-      role: "Software Engineering Intern",
+      role: "Asset Management, Integrity & Reliability Intern",
       company: "TC Energy",
       description:
-        "Worked in a real engineering environment where reliability, maintainability, and practical delivery mattered. Experience shaped how I think about production systems and engineering tradeoffs.",
+        "Built Power BI reporting, Power Automate workflows, SQL-backed geospatial data retrieval, ArcGIS visualizations, and AWS/Python analysis tooling for pipeline integrity and risk workflows.",
     },
     {
-      period: "Current",
-      role: "Software Engineering Student",
+      period: "2021 - 2026",
+      role: "BSc Software Engineering",
       company: "University of Calgary",
       description:
-        "Focused on cloud systems, full-stack application development, and the performance behavior of distributed systems.",
+        "Graduated with project work spanning full-stack applications, cloud infrastructure, networked systems, Kubernetes, and performance analysis of distributed systems.",
     },
   ],
   projects: [
