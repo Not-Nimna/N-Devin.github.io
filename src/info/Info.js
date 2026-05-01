@@ -22,6 +22,7 @@ export const info = {
     { id: "hero", label: "Home" },
     { id: "experience", label: "Experience" },
     { id: "projects", label: "Projects" },
+    { id: "hackathons", label: "Hackathons" },
     { id: "contact", label: "Contact" },
   ],
   socialLinks: [
@@ -144,23 +145,27 @@ export const info = {
       githubHref: "https://github.com/Not-Nimna/Pipeline-Integrity-Management-System.git",
     },
     {
+      title: "Academia League",
+      description:
+        "Built an application-oriented project with multi-surface requirements, balancing frontend delivery with backend structure and maintainable implementation.",
+      stack: ["Full-Stack", "React", "APIs", "Systems Thinking"],
+      githubHref: "https://github.com/Not-Nimna/academia-league.git",
+    },
+  ],
+  hackathons: [
+    {
       title: "ZeroWaste",
       description:
         "Built a food waste tracking app with OCR-based grocery data extraction, expiration alerts, SQLAlchemy backend services, and a Material UI dashboard.",
       stack: ["React", "Node.js", "Python", "PostgreSQL"],
+      event: "Hack the Change 2023",
     },
     {
       title: "Urbanlytics",
       description:
         "Developed a geospatial analytics platform for neighbourhood insights using map-based filtering, sidebar analytics, and open data integrations.",
       stack: ["Next.js", "TypeScript", "Leaflet", "Open APIs"],
-    },
-    {
-      title: "Academia League",
-      description:
-        "Built an application-oriented project with multi-surface requirements, balancing frontend delivery with backend structure and maintainable implementation.",
-      stack: ["Full-Stack", "React", "APIs", "Systems Thinking"],
-      githubHref: "https://github.com/Not-Nimna/academia-league.git",
+      event: "Hack the Change 2025",
     },
   ],
   technicalAreas: [

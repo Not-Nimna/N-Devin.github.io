@@ -3,7 +3,7 @@ import styles from "./App.module.scss";
 import { info } from "./info/Info";
 
 function App() {
-  const { profile, navigation, hero, stats, highlightCards, experience, projects, technicalAreas, contact, socialLinks } = info;
+  const { profile, navigation, hero, stats, highlightCards, experience, projects, hackathons, technicalAreas, contact, socialLinks } = info;
 
   return (
     <div className={styles.appShell}>
@@ -126,6 +126,27 @@ function App() {
                   </article>
                 );
               })}
+            </div>
+          </section>
+
+          <section id="hackathons" className={`${styles.sectionBlock} ${styles.hackathonSection}`}>
+            <div className={styles.sectionIntro}>
+              <p>Hackathons</p>
+              <h2>Fast builds shaped by real constraints.</h2>
+            </div>
+            <div className={styles.hackathonGrid}>
+              {hackathons.map((hackathon) => (
+                <article key={hackathon.title} className={styles.hackathonCard}>
+                  <span className={styles.hackathonEvent}>{hackathon.event}</span>
+                  <h3>{hackathon.title}</h3>
+                  <p>{hackathon.description}</p>
+                  <div className={styles.tagRow}>
+                    {hackathon.stack.map((item) => (
+                      <span key={item}>{item}</span>
+                    ))}
+                  </div>
+                </article>
+              ))}
             </div>
           </section>
 
