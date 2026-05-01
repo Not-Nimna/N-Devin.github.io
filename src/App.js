@@ -84,7 +84,7 @@ function App() {
           <section id="experience" className={styles.sectionBlock}>
             <div className={styles.sectionIntro}>
               <p>Experience</p>
-              <h2>Built on real work, not template claims.</h2>
+              <h2>Engineering experience across data, cloud, and reliability workflows.</h2>
             </div>
             <div className={styles.timeline}>
               {experience.map((item) => (
