@@ -115,6 +115,13 @@ export const info = {
       githubHref: "https://github.com/ucalgary-ensf381/the-last-show-nimna-solo.git",
     },
     {
+      title: "Career Search App",
+      description: "Designed a front-end career discovery experience focused on clean information hierarchy, approachable job browsing flows, and responsive UI polish.",
+      stack: ["UI/UX", "React", "Responsive Design", "Netlify"],
+      projectHref: "https://careersearchapp.netlify.app/",
+      linkLabel: "View Live Site",
+    },
+    {
       title: "Neural Network from Scratch",
       description: "Implemented forward propagation, backpropagation, and gradient descent without deep learning frameworks, plus an interactive digit-classification notebook.",
       stack: ["Python", "NumPy", "ipycanvas", "Google Colab"],
