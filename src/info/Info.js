@@ -122,12 +122,6 @@ export const info = {
       githubHref: "https://github.com/ucalgary-ensf381/the-last-show-nimna-solo.git",
     },
     {
-      title: "Wireshark Packet Analysis & TCP Socket Lab",
-      description:
-        "Captured and analyzed HTTP, TCP, DNS, UDP, and TLS traffic, then built a Python TCP client-server chat application with structured debugging logs.",
-      stack: ["Python", "TCP Sockets", "Wireshark", "Networking"],
-    },
-    {
       title: "Neural Network from Scratch",
       description:
         "Implemented forward propagation, backpropagation, and gradient descent without deep learning frameworks, plus an interactive digit-classification notebook.",
