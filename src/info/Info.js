@@ -166,6 +166,7 @@ export const info = {
       description:
         "Built an application-oriented project with multi-surface requirements, balancing frontend delivery with backend structure and maintainable implementation.",
       stack: ["Full-Stack", "React", "APIs", "Systems Thinking"],
+      githubHref: "https://github.com/Not-Nimna/academia-league.git",
     },
   ],
   technicalAreas: [
