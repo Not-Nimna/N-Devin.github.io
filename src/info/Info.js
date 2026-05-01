@@ -34,7 +34,7 @@ export const info = {
     },
     {
       label: "Email",
-      href: "mailto:nimnawijedasa@gmail.com",
+      href: "https://mail.google.com/mail/?view=cm&fs=1&to=nimnawijedasa@gmail.com&su=Portfolio%20Inquiry",
     },
   ],
   hero: {
@@ -176,7 +176,7 @@ export const info = {
     title: "Let’s build something reliable and scalable.",
     text: "I’m most interested in software roles where I can work across applications, infrastructure, and system behavior.",
     primaryLabel: "Email Me",
-    primaryHref: "mailto:nimnawijedasa@gmail.com",
+    primaryHref: "https://mail.google.com/mail/?view=cm&fs=1&to=nimnawijedasa@gmail.com&su=Portfolio%20Inquiry",
     secondaryLabel: "Open LinkedIn",
     secondaryHref: "https://linkedin.com/in/nimnawijedasa",
   },

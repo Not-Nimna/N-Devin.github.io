@@ -180,7 +180,9 @@ function App() {
             <h2>{contact.title}</h2>
             <p className={styles.contactText}>{contact.text}</p>
             <div className={styles.contactActions}>
-              <a href={contact.primaryHref}>{contact.primaryLabel}</a>
+              <a href={contact.primaryHref} target="_blank" rel="noreferrer">
+                {contact.primaryLabel}
+              </a>
               <a href={contact.secondaryHref} target="_blank" rel="noreferrer">
                 {contact.secondaryLabel}
               </a>
