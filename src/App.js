@@ -3,7 +3,7 @@ import styles from "./App.module.scss";
 import { info } from "./info/Info";
 
 function App() {
-  const { profile, navigation, hero, stats, highlightCards, experience, projects, technicalAreas, contact, socialLinks } = info;
+  const { profile, navigation, hero, stats, highlightCards, experience, projects, hackathons, technicalAreas, contact, socialLinks } = info;
 
   return (
     <div className={styles.appShell}>
@@ -104,15 +104,53 @@ function App() {
               <h2>Work that reflects cloud, product, and systems thinking.</h2>
             </div>
             <div className={styles.projectGrid}>
-              {projects.map((project) => (
-                <article key={project.title} className={styles.projectCard}>
-                  <h3>{project.title}</h3>
-                  <p>{project.description}</p>
+              {projects.map((project) => {
+                const projectHref = project.githubHref || project.projectHref;
+                const projectLinkLabel = project.linkLabel || (project.githubHref ? "View GitHub Repo" : "View Project");
+
+                return (
+                  <article key={project.title} className={styles.projectCard}>
+                    <h3>{project.title}</h3>
+                    <p>{project.description}</p>
+                    <div className={styles.tagRow}>
+                      {project.stack.map((item) => (
+                        <span key={item}>{item}</span>
+                      ))}
+                    </div>
+                    {projectHref && (
+                      <a className={styles.projectLink} href={projectHref} target="_blank" rel="noreferrer" aria-label={`Open ${project.title}`}>
+                        <span>{projectLinkLabel}</span>
+                        <span aria-hidden="true">↗</span>
+                      </a>
+                    )}
+                  </article>
+                );
+              })}
+            </div>
+          </section>
+
+          <section id="hackathons" className={`${styles.sectionBlock} ${styles.hackathonSection}`}>
+            <div className={styles.sectionIntro}>
+              <p>Hackathons</p>
+              <h2>Fast builds shaped by real constraints.</h2>
+            </div>
+            <div className={styles.hackathonGrid}>
+              {hackathons.map((hackathon) => (
+                <article key={hackathon.title} className={styles.hackathonCard}>
+                  <span className={styles.hackathonEvent}>{hackathon.event}</span>
+                  <h3>{hackathon.title}</h3>
+                  <p>{hackathon.description}</p>
                   <div className={styles.tagRow}>
-                    {project.stack.map((item) => (
+                    {hackathon.stack.map((item) => (
                       <span key={item}>{item}</span>
                     ))}
                   </div>
+                  {hackathon.projectHref && (
+                    <a className={styles.projectLink} href={hackathon.projectHref} target="_blank" rel="noreferrer" aria-label={`Open ${hackathon.title} on Devpost`}>
+                      <span>{hackathon.linkLabel || "View Hackathon Project"}</span>
+                      <span aria-hidden="true">↗</span>
+                    </a>
+                  )}
                 </article>
               ))}
             </div>
